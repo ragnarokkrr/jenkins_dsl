@@ -3,7 +3,7 @@ node {
 
   stage('Configure') {
     env.PATH = "${tool 'maven-3.3.9'}/bin:${env.PATH}"
-    env.JAVA_HOME="${tool 'oracle_jdk_8u131'}"
+    env.JAVA_HOME="${tool 'oracle_jdk_8u152'}"
     env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
     sh 'java -version'
 
